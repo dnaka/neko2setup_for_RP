@@ -32,7 +32,7 @@ mkdir ~/.config/sdlnp21kai
 
 # font
 sudo apt install fonts-takao-*
-ln -s /usr/share/fonts/truetype/takao-gothic/TakaoGothic,ttf ~/.config/sdlnp21kai/default.ttf
+ln -s /usr/share/fonts/truetype/takao-gothic/TakaoGothic.ttf ~/.config/sdlnp21kai/default.ttf
 
 # x版のbuild&install
 mkdir buildx && cd buildx
@@ -45,4 +45,4 @@ mkdir ~/.config/xnp21kai
 
 # font
 sudo apt install fonts-takao-*
-ln -s /usr/share/fonts/truetype/takao-gothic/TakaoGothic,ttf ~/.config/xnp21kai/default.ttf
+ln -s /usr/share/fonts/truetype/takao-gothic/TakaoGothic.ttf ~/.config/xnp21kai/default.ttf
