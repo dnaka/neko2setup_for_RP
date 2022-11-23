@@ -14,7 +14,7 @@ sudo apt install -y libusb-1.0-0-dev libssl-dev libfreetype6-dev libfontconfig1-
 
 # cmake install
 wget https://github.com/Kitware/CMake/releases/download/v3.22.0/cmake-3.22.0.tar.gz
-tar xvf cmake3.22.0.tar.gz
+tar xvf cmake-3.22.0.tar.gz
 cd cmake-3.22.0
 ./bootstrap && make && sudo make install
 cd ..
